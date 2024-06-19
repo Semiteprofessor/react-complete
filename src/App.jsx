@@ -6,6 +6,7 @@ import Accordion from "./components/Accordion";
 import Stepper from "./components/Stepper";
 import TipCalculator from "./components/TipCalculator";
 import EatNSplit from "./components/EatNSplit";
+import CurrencyConverter from "./components/CurrencyConverter";
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       {/* <PackingList /> */}
       {/* <Accordion /> */}
       {/* <TipCalculator /> */}
-      <EatNSplit />
+      {/* <EatNSplit /> */}
+      <CurrencyConverter />
     </div>
   );
 };
