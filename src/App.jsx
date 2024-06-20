@@ -7,6 +7,7 @@ import Stepper from "./components/Stepper";
 import TipCalculator from "./components/TipCalculator";
 import EatNSplit from "./components/EatNSplit";
 import CurrencyConverter from "./components/CurrencyConverter";
+import Geolocation from "./components/Geolocation";
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       {/* <Accordion /> */}
       {/* <TipCalculator /> */}
       {/* <EatNSplit /> */}
-      <CurrencyConverter />
+      {/* <CurrencyConverter /> */}
+      <Geolocation />
     </div>
   );
 };
